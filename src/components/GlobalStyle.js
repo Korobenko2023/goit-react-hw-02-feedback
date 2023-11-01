@@ -59,10 +59,6 @@ section {
   background-color: ${p => p.theme.background.lightBlue};
   border: 0.5px solid ${p => p.theme.background.violet};
   border-radius: ${p => p.theme.radii.md};
-  margin-bottom: ${p => p.theme.spasing(10)};
-  &:not(:last-child) {
-    margin-bottom: ${p => p.theme.spasing(10)};
-  }
 }
 `;
 
