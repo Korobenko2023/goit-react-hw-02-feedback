@@ -11,12 +11,6 @@ body {
   padding-right: ${p => p.theme.spasing(4)};
   color: ${p => p.theme.colors.black};
   letter-spacing: 0.02em;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
-  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -51,14 +45,10 @@ main {
   margin-top: ${p => p.theme.spasing(10)};
   margin-bottom: ${p => p.theme.spasing(10)};
   text-align: center;
-  border-radius: ${p => p.theme.radii.md};
-}
-
-section {
+  border-radius: ${p => p.theme.radii.md};  
   padding: ${p => p.theme.spasing(4)};
   background-color: ${p => p.theme.background.lightBlue};
   border: 0.5px solid ${p => p.theme.background.violet};
-  border-radius: ${p => p.theme.radii.md};
 }
 `;
 
