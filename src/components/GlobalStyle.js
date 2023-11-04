@@ -7,8 +7,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-left: ${p => p.theme.spasing(4)};
-  padding-right: ${p => p.theme.spasing(4)};
   color: ${p => p.theme.colors.black};
   letter-spacing: 0.02em;
   line-height: 1.5;
@@ -38,6 +36,10 @@ img {
   object-fit: cover;
 }
 
+section {
+   background-color: ${p => p.theme.background.lightBlue};
+  
+}
 main {
   width: 1000px;
   margin-left: auto ;

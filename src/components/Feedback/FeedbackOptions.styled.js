@@ -11,4 +11,5 @@ export const ButtonFeedback = styled.button`
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.06em;
+   text-transform: capitalize;
 `; 
